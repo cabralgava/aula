@@ -1,8 +1,16 @@
-let aula = ["Matemática", "Portugues", "Ingles", "Espanhol"];
+function adicionartHttp() {
+    return "http://"
+}
 
-for(i = 0; i < aula.length; i++){
-    if (aula.i = "Ingles") {
-        console.log("I Love speake " + aula.i);
+var site = [
+    "cliqueimude.com",
+    "rdstation.com", 
+    "google.com"
+];
+
+function processar(){
+    for( var i = 0; i < site.length; i++) {
+        console.log(adicionartHttp() + site[i])
     }
 }
-console.log()
+processar();
