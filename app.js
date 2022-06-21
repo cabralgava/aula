@@ -5,3 +5,4 @@ for(i = 0; i < aula.length; i++){
         console.log("I Love speake " + aula.i);
     }
 }
+console.log()
